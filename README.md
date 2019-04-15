@@ -7,15 +7,14 @@ There is a client included with the server.
 ## Getting Started
 
 ### Prerequisites
-1. The project uses [Gradle](https://gradle.org) so this must be installed on your machine.
+1. The project uses [Maven](https://maven.apache.org/) so this must be installed on your machine.
 2. Java 8 or higher
 3. Port 8080 open for the web server that hosts the client
 4. Port 43594 open for the game server
 
 ### Installing
-1. Run `gradle build` in the RuneScape-Private-Server directory to download dependencies and build the project.
-
-The project should now be ready and setup. You can run the project using the `gradle run` command.
+- Run maven to download all the dependencies
+- Point your Internet browser to http://127.0.0.1:8080/index_gl.html and login with a username and password of your choosing. If the OpenGL client does not work, you can also use index.html or index_unsigned.html.
 
 ## Contributing
 We are happy to have contributions whether it is for small bug fixes or new pieces of major functionality. To contribute changes, you should first fork the upstream repository to your own GitHub account. You can then add a new remove for upstream and rebase any changes to

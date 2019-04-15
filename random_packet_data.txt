@@ -1,0 +1,96 @@
+//OPCODE: 90
+builder.put(DataType.SHORT, DataOrder.LITTLE, DataTransformation.ADD, 1);
+builder.put(DataType.BYTE, 1);
+builder.put(DataType.BYTE, 1);
+builder.put(DataType.SHORT, DataOrder.LITTLE, DataTransformation.ADD, 1);
+builder.put(DataType.INT, DataOrder.LITTLE, 1);
+
+//OPCODE 33
+builder.put(DataType.BYTE, 3250);
+builder.put(DataType.BYTE, 3423);
+builder.put(DataType.BYTE, 0);
+
+//OPCODE 47 - create ground item?
+builder.put(DataType.SHORT, DataOrder.LITTLE, DataTransformation.ADD, 11694); //id
+builder.put(DataType.SHORT, 1);
+builder.put(DataType.SHORT, 1); //stack
+builder.put(DataType.BYTE, 10); //TODO: This is wrong
+
+//Opcode 115
+builder.put(DataType.SHORT, 2);	
+builder.put(DataType.BYTE, 5);
+
+Opcode 114 => GroundItemUpdateMessageEncoder??
+Opcode 60 => Create ground item
+
+//OPCODE 19
+builder.put(DataType.BYTE, 2);
+
+//OPCODE 156 => Moves camera weird!
+builder.put(DataType.SHORT, 2); 
+
+//OPCODE 86
+builder.putString("Hello World");
+
+//OPCODE 52
+builder.put(DataType.SHORT, 2);
+
+//OPCODE 10
+builder.put(DataType.INT, DataOrder.MIDDLE, 2);
+builder.put(DataType.SHORT, DataTransformation.ADD, 5);
+
+//OPCODE 19
+builder.put(DataType.BYTE, 2);
+
+//OPCODE 46 => Move camera packet (current values below vibrate the camera)
+builder.put(DataType.SHORT, 5);
+builder.put(DataType.BYTE, 1);
+builder.put(DataType.BYTE, 1);
+builder.put(DataType.BYTE, 3);
+builder.put(DataType.BYTE, 1);
+builder.put(DataType.SHORT, 2);
+
+//OPCODE 113
+builder.put(DataType.SHORT, 5);
+builder.put(DataType.INT, DataOrder.INVERSED_MIDDLE, 3);
+builder.put(DataType.SHORT, DataOrder.LITTLE, DataTransformation.ADD, 5);
+builder.put(DataType.SHORT, DataOrder.LITTLE, DataTransformation.ADD, 5);
+builder.put(DataType.SHORT, DataOrder.LITTLE, DataTransformation.ADD, 5);
+
+//OPCODE 172
+builder.put(DataType.INT, DataOrder.LITTLE, 5);
+builder.put(DataType.SHORT, DataTransformation.ADD, 5);
+builder.put(DataType.SHORT, DataOrder.LITTLE, DataTransformation.ADD, 5);
+
+//OPCODE 40
+builder.put(DataType.INT, DataOrder.LITTLE, 5);
+builder.put(DataType.SHORT, DataOrder.LITTLE, 5);
+builder.put(DataType.BYTE, 5)
+
+//OPCODE 176
+builder.put(DataType.SHORT, 5);
+builder.put(DataType.SHORT, DataOrder.LITTLE, DataTransformation.ADD, 5);
+builder.put(DataType.BYTE, DataTransformation.NEGATE, 5); //may be wrong
+
+//OPCODE 72
+builder.put(DataType.SHORT, DataOrder.LITTLE, 10);
+
+//OPCODE 95
+builder.put(DataType.SHORT, 10);
+
+//OPCODE 174
+builder.put(DataType.LONG, 21105);
+builder.put(DataType.BYTE, 1);
+builder.put(DataType.BYTE, 0);
+builder.putString("Hello");
+
+//OPCODE 2
+builder.put(DataType.LONG, 2105); //owner name
+builder.put(DataType.LONG, 2115); //clan name
+builder.put(DataType.BYTE, DataTransformation.ADD, 1); //kick rank
+builder.put(DataType.BYTE, 0); //amt of people
+	
+builder.put(DataType.LONG, 2105);
+builder.put(DataType.SHORT, 1);
+builder.put(DataType.BYTE, DataTransformation.ADD, 1);
+builder.putString("Hello");

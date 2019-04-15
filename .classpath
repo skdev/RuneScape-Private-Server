@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="asm/src/main/java"/>
+	<classpathentry kind="src" path="cache/src/main/java"/>
+	<classpathentry kind="src" path="cache/src/test/java"/>
+	<classpathentry kind="src" path="flooder/src/main/java"/>
+	<classpathentry kind="src" path="game/src/main/java"/>
+	<classpathentry kind="src" path="game/src/test/java"/>
+	<classpathentry kind="src" path="login/src/main/java"/>
+	<classpathentry kind="src" path="util/src/main/java"/>
+	<classpathentry kind="src" path="util/src/test/java"/>
+	<classpathentry kind="lib" path="asm/data/530/loader_gl.jar"/>
+	<classpathentry kind="lib" path="asm/data/530/loader.jar"/>
+	<classpathentry kind="lib" path="asm/data/530/runescape.jar"/>
+	<classpathentry kind="lib" path="asm/data/jaggl.jar"/>
+	<classpathentry kind="lib" path="asm/data/loader_gl.jar"/>
+	<classpathentry kind="lib" path="asm/data/loader.jar"/>
+	<classpathentry kind="lib" path="asm/data/runescape.jar"/>
+	<classpathentry kind="lib" path="game/data/www/loader_gl.jar"/>
+	<classpathentry kind="lib" path="game/data/www/loader.jar"/>
+	<classpathentry kind="lib" path="game/data/www/runescape.jar"/>
+	<classpathentry kind="lib" path="dependencies/asm-4.1.jar"/>
+	<classpathentry kind="lib" path="dependencies/asm-tree-4.1.jar"/>
+	<classpathentry kind="lib" path="dependencies/asm-util-4.1.jar"/>
+	<classpathentry kind="lib" path="dependencies/jackson-core-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="dependencies/javassist-3.17.1-GA.jar"/>
+	<classpathentry kind="lib" path="dependencies/jbcrypt-0.3m.jar"/>
+	<classpathentry kind="lib" path="dependencies/jruby-complete-1.7.4.jar"/>
+	<classpathentry kind="lib" path="dependencies/junit-4.11.jar" sourcepath="C:/Users/Suraj/.m2/repository/junit/junit/4.11/junit-4.11-sources.jar"/>
+	<classpathentry kind="lib" path="dependencies/mysql-connector-java-5.1.25.jar"/>
+	<classpathentry kind="lib" path="dependencies/plexus-utils-1.5.12.jar"/>
+	<classpathentry kind="lib" path="dependencies/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="dependencies/slf4j-jdk14-1.7.5.jar"/>
+	<classpathentry kind="lib" path="dependencies/vertx/hazelcast-3.5.2.jar"/>
+	<classpathentry kind="lib" path="dependencies/netty-all-4.0.0.CR3.jar"/>
+	<classpathentry kind="lib" path="dependencies/vertx-core-3.1.0.jar"/>
+	<classpathentry kind="lib" path="dependencies/gson-2.2.4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="util/target/test-classes"/>
+</classpath>
