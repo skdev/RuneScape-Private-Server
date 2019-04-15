@@ -26,8 +26,8 @@ make keep up to date with upstream.
 The style guides the project uses is based on the [Google style guide](https://google.github.io/styleguide/javaguide.html)
 
 ## Authors
-** [Graham Edgecombe](https://github.com/grahamedgecombe)* - Initial server framework
-**Suraj Kumar* - Decompiled the client and handled communication with the server
+*[Graham Edgecombe](https://github.com/grahamedgecombe)* - Initial server framework
+*Suraj Kumar* - Decompiled the client and handled communication with the server
 
 ## Acknowledgements
 [Leanbow](https://github.com/leanbow) for refactoring the 550 client and helping to identify packets.
