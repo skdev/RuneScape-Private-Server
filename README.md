@@ -27,6 +27,7 @@ The style guides the project uses is based on the [Google style guide](https://g
 
 ## Authors
 *[Graham Edgecombe](https://github.com/grahamedgecombe)* - Initial server framework
+
 *Suraj Kumar* - Decompiled the client and handled communication with the server
 
 ## Acknowledgements
